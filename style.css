@@ -1,0 +1,57 @@
+.img-1 {
+  width: 290px;
+  height: 125px;
+}
+
+.carousel {
+  margin-top: 50px;
+}
+.card-img-top {
+  height: 236.43px;
+}
+.carousel-control-prev-icon {
+  background-image: url(./images/left-arrow.png);
+}
+
+.carousel-control-next-icon {
+  background-image: url(./images/right-arrow.png);
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 20px;
+}
+.text-center {
+  margin-top: 30px;
+}
+.d-block {
+  height: 350px;
+}
+.given {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.given1 {
+  font-size: 25px;
+}
+.a1 {
+  font-size: 22px;
+  text-decoration: none;
+}
+@media all and (max-width: 1084px) {
+  .col {
+    padding-top: 22px;
+  }
+}
+@media all and (max-width: 768px) {
+  .col {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media all and (max-width: 368px) {
+  .img-1 {
+    width: 219px;
+    height: 100px;
+  }
+}
